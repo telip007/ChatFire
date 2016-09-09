@@ -1,10 +1,10 @@
 ![Icon](https://github.com/telip007/ChatFire/blob/master/Icon/Icon.png) 
 # ChatFire
-## Still in progress
-This is not the final build, I will add features like sending images, videos and voice messasges, receiving notifications, etc.
 
 ## About
-ChatFire is a very simple Chat application written in swift and xcode 7 to present how you can build very easy apps with firebase.
+ChatFire is a very simple Chat application written in swift and xcode 7 to present how you can build very easy apps with firebase. The App is build just with Auto Layout and without storyboards. I will upload more tutorials for iOS , but for now I thought it would be cool to see how you can build a very easy chat app from scratch just by using Firebase. 
+### Still in progress
+This is not the final build, I will add features like sending images, videos and voice messasges, receiving notifications, etc. (When I find enough time.)
 
 ## Used libraries
 For ChatFire I used:
@@ -27,6 +27,9 @@ Please tell me if you found an issue, so I can improve this code for people who 
 
 ## Firebase license: 
 ###### https://console.developers.google.com/tos?id=universal
+
+## Freelancing
+I also do Freelancing work for projects, because I'm a 16 year old student I can't work on too many big projetcs for now but if you have a interesting project or just need help just contact me at: talip.goeksu@gmail.com, and I see what I can do. :)
 
 ## License for this project:
                              Apache License
