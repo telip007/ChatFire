@@ -1,0 +1,1686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0203761D6835438CD43CF8F0684FB66F /* MessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986402096833A5B468823E121330DD0B /* MessageView.xib */; };
+		093E724BAAE245FB7F7304E8663F9668 /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B35167789DC9F9F1F2317485FCE0296 /* UIButtonExtensions.swift */; };
+		0CB770CD249FAA5736ECD96141497AE2 /* SingleImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC2DB3AF0EC41672695988B56C87CF7 /* SingleImageSaver.swift */; };
+		0FC1E2387E06E770139DE5787DF33339 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76A13616CA277271DE4B0084621ED19 /* ConstraintItem.swift */; };
+		118DE5355C8C4BC5EBB1C2034E7CC058 /* VolumeControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17F0332B13E46558C458A12C52EB36F /* VolumeControl.swift */; };
+		1214644C671C6B6D4AD7780706516E84 /* MessageViewIOS8.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C07D150914CEA668562AA79D456316B /* MessageViewIOS8.xib */; };
+		1706C1F26CDA98129FE522B2331B3D61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		184488E443B6D2A85DA45AD3D21245B1 /* CameraGlobals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FA6F04BBCBB06CF3BD8ADD370EC091 /* CameraGlobals.swift */; };
+		1CCD0CA6E3C465AF0718C67976B080ED /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC083BAC24C136951D5D709D5C98B31 /* Debugging.swift */; };
+		1D1FE38C62B9D2AD8E29A04949DD1C6F /* SingleImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23484D1CC0E0CFEE43DC393CA9F93253 /* SingleImageFetcher.swift */; };
+		21B9C65EB3542F7DF279B8090F165EBD /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E74968309ED13468D6C486B60C3D4A76 /* UIViewExtensions.swift */; };
+		2440A397FF747D03CE625A87EFE88B25 /* Pods-ChatFireUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0BD3A4F2263973E7EC10EABF77421C8 /* Pods-ChatFireUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29880E5ABF060C5BD17C0606DBE10D7B /* ImageFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C77711F70E314DF09D845EC14D70417 /* ImageFetcher.swift */; };
+		2B213C45BFE0B4B0ABD517C26BAFEFE7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D517FACFAD9456524CCEB6B127AE3A /* Error.swift */; };
+		30F9D542E2A047783C17125062982B3D /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B30A14DD57AB521FAA2743FBA6748C /* MessageView.swift */; };
+		3115426677D1A8057D3B442ADB709B37 /* TabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDF487A54504EBD2A132C29E61850A78 /* TabView.xib */; };
+		32ACAD182A9C90C563170CF45CC65A5C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AE1EC95633B9320CE4683C3BF572904 /* CameraViewController.swift */; };
+		32F2572FE7F54FA3E588B05F4575AD40 /* Pods-ChatFireUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2355F875BB98F7E774AAC09E0FBDF269 /* Pods-ChatFireUITests-dummy.m */; };
+		3AB8980724808427937EC099A399DF0E /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009C5A05A5F422ABAEE6953E8E9FCF89 /* ImageCell.swift */; };
+		3C64B7931905437294D4510226C40DAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		3E567A35BE25E393670D5FD60ABACC35 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD72718AD936E57F34D5D41C78271DB /* Theme.swift */; };
+		3FA103E2BF447F6C919A47AC13A82F11 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203A7D0CC0D9FE70AFD3E41D26DF3B34 /* Constraint.swift */; };
+		43C97F7082437D97E975BAE6A7F851F0 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A308AA81E896D7D721C6E62B67445EA1 /* ConstraintMaker.swift */; };
+		45E1DF3AA2D60E7402D56EE637898FF6 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87343ED71FBFD8290C6CA274370B6A2 /* ConfirmViewController.swift */; };
+		4C115F1FF41B66803D010883277F87E2 /* CameraViewAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912CAECC344CB3CACD74D76CE0E4BBCA /* CameraViewAssets.xcassets */; };
+		4E678B9AF68CB04DC889438977785F86 /* PassthroughWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329E73A8E47EB72B4450952D84E6972F /* PassthroughWindow.swift */; };
+		4FBB34CB8D8620299FD042924101DC49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A61659725974823DCDAF50CF3DAF1A /* Images.xcassets */; };
+		534954F721DA5E351CF5720C56ABF945 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6B67CC72D9C332A9FDEB628AA774B0 /* EdgeInsets.swift */; };
+		55795B355AAB00CFC3A29D2DE4A819AD /* SwiftMessages-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 911DD7BA9D31F39BA64822CA350E9041 /* SwiftMessages-dummy.m */; };
+		558549EABC6A7A93266A1C0D3ABACB14 /* Pods-ChatFire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D52CB11175994EEC70ECAF0001A7D63 /* Pods-ChatFire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		571340FD7CCFE8BAC3A2F08E0CD9CED5 /* PhotoLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3AF2F429C8420A727C0706DA997AD9 /* PhotoLibraryViewController.swift */; };
+		584628DFDEE343FFDDCAB88693C05FF1 /* WindowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E71E648D1EE124CE147BC9DDDA19C25 /* WindowViewController.swift */; };
+		607EEE01B707C7CDE120933BA9B24CC9 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B90078F9DE05275C9039FEAB0742A6 /* View+SnapKit.swift */; };
+		692E07BC54AA55E6EF5625573D220DA9 /* SwiftMessages.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3DE14E4B5E8E1FC63503ACB4FD764BC9 /* SwiftMessages.bundle */; };
+		705D53790CC8B18997358B20F268F7F3 /* CropOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F540BE7716AA37E64B8C621437CFE786 /* CropOverlay.swift */; };
+		728A45B8B971047BDB308AE2141F3DC8 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAE52AAE85BE8AAB23FBEFEC754F6C4 /* Utilities.swift */; };
+		72C71207A3CBA0CED201AC23FB9F3F98 /* Pods-ChatFireTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC24A853F0C6E3A0144266DCE247FCCF /* Pods-ChatFireTests-dummy.m */; };
+		784F19976154B9D5F59602F73A38DFFE /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A31C2A121908BAC61FF9169A115A9D67 /* SnapKit-dummy.m */; };
+		78568B7D0366E184E71C0B9AFDB74865 /* StatusLine.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C461803870D23E77677439C7AFA3D87 /* StatusLine.xib */; };
+		78769D114789C373E74F5D01E1608AFD /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1223A53E26017D23F21FCF5066C92DD /* ConstraintRelation.swift */; };
+		79A19228C1166CE5B1D5E857B2F94173 /* ALCameraViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19961B264478597AD453C89B9A060501 /* ALCameraViewController-dummy.m */; };
+		7B66AAD5B8A7A1FED3AD97862ECBDB6E /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB69C51B5488A7A83A822A264C72CEC6 /* UIViewController+Utils.swift */; };
+		7DA24540428EC4378795607A676B53FF /* NSBundle+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62B01C4F39C95448A42E41DF6A1BD5E /* NSBundle+Utils.swift */; };
+		8A893F22BD02E77DA45D40BC1C4F2A47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		8F4A966830ABFC9639F5250B2AE9DF7B /* CameraShot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61393C28CFF41F68EE293DFA544AA9DB /* CameraShot.swift */; };
+		973DAA137682A138731C2E81A8B18C90 /* Pods-ChatFire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AEF3034B1E4C216F01726C5DDDA21811 /* Pods-ChatFire-dummy.m */; };
+		985DDBC4541695352EC2A8D1E925E3F9 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5187B01A435EF00F433A425429D8B2 /* ConstraintDescription.swift */; };
+		A1489A8D61EE14A6E043550EB67E5017 /* SwiftMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2837243C9A7796FA546E1D2EB5E5A999 /* SwiftMessages.swift */; };
+		A940E8F9C140B8C66EFF4D1483297520 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7B7B314E6A5CAA5D4CA9DB8AE9A9FA /* CameraView.swift */; };
+		ABB787AC4591808F9A69A96A4F01C45A /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E447BC315A28F3C4C63E15E9AF74FAE /* Identifiable.swift */; };
+		B23DF255AEE320E899576D9812C6B93B /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC87E3C9F004FB4325F4C0558F441DBA /* LayoutConstraint.swift */; };
+		B3AB8B9A6BF3D7C6AD248D750C4AF3DA /* CameraView.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADB417E59FE124231F341D51DB9DC3F4 /* CameraView.strings */; };
+		B788451544D8D86D415662D6ECC9C6F4 /* Pods-ChatFireTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 115B56F78130E675A3CA12A04B6D2F23 /* Pods-ChatFireTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B792160E0DF8BABD00BA2D01D992572E /* PhotoLibraryAuthorizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD18BD6993FA66A6957966E9B04E65A7 /* PhotoLibraryAuthorizer.swift */; };
+		BA27610C5152BBDFE99F6229CE8C9378 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D584BD0D2ECFF33AFDDABDF25B783 /* CardView.xib */; };
+		BFC253DA64BA545C1A08B3BEB1339D13 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E816CE47F62F810B49AD04CCE090AA /* BaseView.swift */; };
+		C1EC2F9EFA466FA2259A2F4FBFC5EA33 /* MarginAdjustable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7CC93FBBEE57D8C2AB29BCD5E99B797 /* MarginAdjustable.swift */; };
+		C49A2146EAC8EC251274FC57DC423CC3 /* BackgroundViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43927DAA53467EB801069920ACD217CC /* BackgroundViewable.swift */; };
+		C608701A4CA5D59EB2CED6CF44C9C00A /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97DB5651A1DEC6B37B8D6C7721B216 /* PassthroughView.swift */; };
+		CDB1305056D08EE410FDDA5B99FD88A8 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE25643CD3EFB80D2893C538C5EA5E5 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D949A968AD3CDC949C94394BDFD02B65 /* ConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0008E01931EA96D2ED578024E0A2D69 /* ConfirmViewController.xib */; };
+		E0FCB7A956C09C6CB8BA286F84C9BA5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		E2560A7275A61939751F09B8163EBA16 /* CameraViewControllerConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857449D5B7A547F92A1512F78016BBBB /* CameraViewControllerConstraint.swift */; };
+		E512334DB289B19E5C20B31D7925D429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		E5F334E181A8EDCE0B0CE084957957A7 /* PermissionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CC1D7B6727E8F745473CC0D917CB18 /* PermissionsView.swift */; };
+		E727DFE6AF105EA2FA5C594BF205CB13 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6298B9DF119A3CA56A3995CF528BF6FB /* Presenter.swift */; };
+		E8199BB130FD4C54CF3A283B2B14C48A /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88216C26D7616AF102C1867630FCA901 /* ViewController+SnapKit.swift */; };
+		EA3ABEF7B31AA3BA8300AA7D4864BCF6 /* SwiftMessages-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BD7CFE575C29A947C107A53FA3C1E5 /* SwiftMessages-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED614CC5534D609D98FDA366D19EE83B /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE38DFE879EB9D63BB5C606D98EF0A3 /* SnapKit.swift */; };
+		F3224858C13E9A856221115004589F58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		F3ED4024EBF978156D113F80A7792AC7 /* ALCameraViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BF72A19C64C201BD3DFB36A920D7ED1 /* ALCameraViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD74F3564C22CC24F1C97B5C47282CFC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		FE61433AD66CAE1EEB428122B59BE50A /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0F744CA0268FA2812C27D120ED59DB /* ConstraintAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E64F6CBF63CFA22FC028846D0C207EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46979295CA9807284542F22A808E388F;
+			remoteInfo = SnapKit;
+		};
+		942FDA8A0190B7ED3DC47B19F965098E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92D08F933F9C40DB60A3B7E37B34EF54;
+			remoteInfo = "SwiftMessages-SwiftMessages";
+		};
+		AC46C86493A228508F6B969A8CFB2B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E4F713A94BEAB9FC6679DFE02DD47C;
+			remoteInfo = SwiftMessages;
+		};
+		CC01D0F7851D5F6BABB20EBF7BE253CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAEFE5845A9A47287B43BE713DFD4B08;
+			remoteInfo = ALCameraViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009C5A05A5F422ABAEE6953E8E9FCF89 /* ImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageCell.swift; path = ALCameraViewController/Views/ImageCell.swift; sourceTree = "<group>"; };
+		05494F39EB4BD20F2588A4FD0459CE49 /* Pods-ChatFireUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatFireUITests-resources.sh"; sourceTree = "<group>"; };
+		08F1747578C477DE661573D29CAB3DD8 /* Pods-ChatFire-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatFire-resources.sh"; sourceTree = "<group>"; };
+		0BF72A19C64C201BD3DFB36A920D7ED1 /* ALCameraViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-umbrella.h"; sourceTree = "<group>"; };
+		0F24184280065BDC65EBD3AA91C20E35 /* Pods_ChatFireUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFireUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FBE3F533A9B9D3ED715B77A5F5BD0DF /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		115B56F78130E675A3CA12A04B6D2F23 /* Pods-ChatFireTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatFireTests-umbrella.h"; sourceTree = "<group>"; };
+		19961B264478597AD453C89B9A060501 /* ALCameraViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ALCameraViewController-dummy.m"; sourceTree = "<group>"; };
+		1BE38DFE879EB9D63BB5C606D98EF0A3 /* SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SnapKit.swift; path = Source/SnapKit.swift; sourceTree = "<group>"; };
+		1E71E648D1EE124CE147BC9DDDA19C25 /* WindowViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowViewController.swift; path = SwiftMessages/WindowViewController.swift; sourceTree = "<group>"; };
+		1F3D2AC00F2AC16671ECA04EFAA2D7D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		203A7D0CC0D9FE70AFD3E41D26DF3B34 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		21E06102C016D5A0601A31E7C3D826EE /* ALCameraViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ALCameraViewController-prefix.pch"; sourceTree = "<group>"; };
+		23484D1CC0E0CFEE43DC393CA9F93253 /* SingleImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageFetcher.swift; path = ALCameraViewController/Utilities/SingleImageFetcher.swift; sourceTree = "<group>"; };
+		2355F875BB98F7E774AAC09E0FBDF269 /* Pods-ChatFireUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatFireUITests-dummy.m"; sourceTree = "<group>"; };
+		2837243C9A7796FA546E1D2EB5E5A999 /* SwiftMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftMessages.swift; path = SwiftMessages/SwiftMessages.swift; sourceTree = "<group>"; };
+		2BC2DB3AF0EC41672695988B56C87CF7 /* SingleImageSaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SingleImageSaver.swift; path = ALCameraViewController/Utilities/SingleImageSaver.swift; sourceTree = "<group>"; };
+		2E5187B01A435EF00F433A425429D8B2 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
+		2E97DB5651A1DEC6B37B8D6C7721B216 /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = SwiftMessages/PassthroughView.swift; sourceTree = "<group>"; };
+		309B97105F76C85C17B9FFB622E2C2D9 /* ALCameraViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ALCameraViewController.modulemap; sourceTree = "<group>"; };
+		30BD7CFE575C29A947C107A53FA3C1E5 /* SwiftMessages-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-umbrella.h"; sourceTree = "<group>"; };
+		329E73A8E47EB72B4450952D84E6972F /* PassthroughWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughWindow.swift; path = SwiftMessages/PassthroughWindow.swift; sourceTree = "<group>"; };
+		35F49F2109E6B6EF4A9D3EAE93D77FB6 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Analytics/Sources/Firebase.h; sourceTree = "<group>"; };
+		37326AFEEC207EB32455B38FE47D7352 /* Pods-ChatFire-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatFire-frameworks.sh"; sourceTree = "<group>"; };
+		3AAC49405091A5C91D6DC9FC7FA9D5EC /* Pods-ChatFire-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatFire-acknowledgements.plist"; sourceTree = "<group>"; };
+		3C3AF2F429C8420A727C0706DA997AD9 /* PhotoLibraryViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryViewController.swift; path = ALCameraViewController/ViewController/PhotoLibraryViewController.swift; sourceTree = "<group>"; };
+		3DE14E4B5E8E1FC63503ACB4FD764BC9 /* SwiftMessages.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMessages.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F744CA0268FA2812C27D120ED59DB /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
+		3FEB6C05DDB141B8D70B1C6B256B9430 /* Pods-ChatFireUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ChatFireUITests.modulemap"; sourceTree = "<group>"; };
+		43927DAA53467EB801069920ACD217CC /* BackgroundViewable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundViewable.swift; path = SwiftMessages/BackgroundViewable.swift; sourceTree = "<group>"; };
+		4ADA7E8EEE9A4A5B93D2AB48B1DDD49A /* Pods-ChatFireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatFireTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B787C609650769EF1CAA4B9C0EC9CAD /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		4D8E993FB5C25FEA70A5E161D981E759 /* Pods-ChatFireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatFireTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DB5D9BF78F7DCADB28C19184D37C08E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E611E069B2C6C17F262924640EF95F2 /* SwiftMessages.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftMessages.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		502703D2CC49BBB67670D44378C7CDD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5319EC232BA3A2ABFD9714405C1DFFF9 /* Pods-ChatFireTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatFireTests-resources.sh"; sourceTree = "<group>"; };
+		5459A14471BB255E8122F8A6586A633B /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		54A61659725974823DCDAF50CF3DAF1A /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SwiftMessages/Resources/Images.xcassets; sourceTree = "<group>"; };
+		58204A534F3B0DDA6F055B90F76B9D6C /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C461803870D23E77677439C7AFA3D87 /* StatusLine.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = StatusLine.xib; path = SwiftMessages/Resources/StatusLine.xib; sourceTree = "<group>"; };
+		5C77711F70E314DF09D845EC14D70417 /* ImageFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFetcher.swift; path = ALCameraViewController/Utilities/ImageFetcher.swift; sourceTree = "<group>"; };
+		5D52CB11175994EEC70ECAF0001A7D63 /* Pods-ChatFire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatFire-umbrella.h"; sourceTree = "<group>"; };
+		5F5D584BD0D2ECFF33AFDDABDF25B783 /* CardView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = CardView.xib; path = SwiftMessages/Resources/CardView.xib; sourceTree = "<group>"; };
+		6028CDE5B93EDF5777E4F27CF0E80B6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61393C28CFF41F68EE293DFA544AA9DB /* CameraShot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraShot.swift; path = ALCameraViewController/Utilities/CameraShot.swift; sourceTree = "<group>"; };
+		6226C0844B6F913170C12E473D343AC3 /* Pods-ChatFire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ChatFire.modulemap"; sourceTree = "<group>"; };
+		62344C02403C553C1F6E35F099513FD2 /* Pods-ChatFireTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ChatFireTests.modulemap"; sourceTree = "<group>"; };
+		6245FB5329E8E45D71F7281C285B1917 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		6298B9DF119A3CA56A3995CF528BF6FB /* Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Presenter.swift; path = SwiftMessages/Presenter.swift; sourceTree = "<group>"; };
+		66DA9A3D5FE5CD2018BE74EE6EAA8F95 /* SwiftMessages.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftMessages.modulemap; sourceTree = "<group>"; };
+		676FFDB7F8A3A08DA5D57F501E8E6DE5 /* SwiftMessages-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftMessages-prefix.pch"; sourceTree = "<group>"; };
+		6AC51DAFF2B24D5EDF5A554F3AE6D1DC /* Pods-ChatFire-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatFire-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6C07D150914CEA668562AA79D456316B /* MessageViewIOS8.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageViewIOS8.xib; path = SwiftMessages/Resources/MessageViewIOS8.xib; sourceTree = "<group>"; };
+		6C0FA7ADFC952FAE08382B4CE3238CB0 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		6FA933A7276D62FF8268CCFC9B615C40 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		7304D93E581AE6C8B27661FA543E86F3 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		7578A475E7245370EE673654AFA26B9B /* Pods-ChatFireUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatFireUITests-frameworks.sh"; sourceTree = "<group>"; };
+		75879C5839F7B9E25620F0D4AF483A75 /* Pods_ChatFire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75D14FFC7DF047C0FA14E62BB4E581BC /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		7AE1EC95633B9320CE4683C3BF572904 /* CameraViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewController.swift; path = ALCameraViewController/ViewController/CameraViewController.swift; sourceTree = "<group>"; };
+		7D605C0709E67B034457E0F15F1AD1FF /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
+		7E447BC315A28F3C4C63E15E9AF74FAE /* Identifiable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifiable.swift; path = SwiftMessages/Identifiable.swift; sourceTree = "<group>"; };
+		7EE25643CD3EFB80D2893C538C5EA5E5 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
+		7FC1191DBA67FB48626FFE9F3DD78E26 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		814D28B69180D012BDFE8AF82E111AB6 /* Pods-ChatFireTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatFireTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84D5DC2DD6EA6369CABC60977F50CABC /* Pods-ChatFireUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatFireUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		857449D5B7A547F92A1512F78016BBBB /* CameraViewControllerConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraViewControllerConstraint.swift; path = ALCameraViewController/ViewController/CameraViewControllerConstraint.swift; sourceTree = "<group>"; };
+		88216C26D7616AF102C1867630FCA901 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ViewController+SnapKit.swift"; path = "Source/ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		89B30A14DD57AB521FAA2743FBA6748C /* MessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageView.swift; path = SwiftMessages/MessageView.swift; sourceTree = "<group>"; };
+		8AC083BAC24C136951D5D709D5C98B31 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
+		8B35167789DC9F9F1F2317485FCE0296 /* UIButtonExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIButtonExtensions.swift; path = ALCameraViewController/Utilities/UIButtonExtensions.swift; sourceTree = "<group>"; };
+		8E0251CB57F30EF0812F6AFE16A0A8B6 /* SwiftMessages.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftMessages.xcconfig; sourceTree = "<group>"; };
+		8F94BA8E3BC9368ECA8B7B01E4C3D6AC /* Pods-ChatFire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatFire.debug.xcconfig"; sourceTree = "<group>"; };
+		911DD7BA9D31F39BA64822CA350E9041 /* SwiftMessages-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftMessages-dummy.m"; sourceTree = "<group>"; };
+		912CAECC344CB3CACD74D76CE0E4BBCA /* CameraViewAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = CameraViewAssets.xcassets; path = ALCameraViewController/CameraViewAssets.xcassets; sourceTree = "<group>"; };
+		91F3D5D11FD3802F6608B8F10AA46937 /* Pods-ChatFireTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatFireTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		941B6DBBDC7A4921ABC53D914FE23B4B /* Pods-ChatFireUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatFireUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95264B0300E1278CC2FB7FAD6F67D0AF /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
+		95A031AA732C2E1BD35840DD840A5C08 /* Pods-ChatFireUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatFireUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		986402096833A5B468823E121330DD0B /* MessageView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = MessageView.xib; path = SwiftMessages/Resources/MessageView.xib; sourceTree = "<group>"; };
+		99CC1D7B6727E8F745473CC0D917CB18 /* PermissionsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionsView.swift; path = ALCameraViewController/Views/PermissionsView.swift; sourceTree = "<group>"; };
+		9F7B7B314E6A5CAA5D4CA9DB8AE9A9FA /* CameraView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraView.swift; path = ALCameraViewController/Views/CameraView.swift; sourceTree = "<group>"; };
+		A17F0332B13E46558C458A12C52EB36F /* VolumeControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VolumeControl.swift; path = ALCameraViewController/Utilities/VolumeControl.swift; sourceTree = "<group>"; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A308AA81E896D7D721C6E62B67445EA1 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
+		A31C2A121908BAC61FF9169A115A9D67 /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
+		A45075208CE5636921C33FC2DF5A4380 /* ALCameraViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ALCameraViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7CC93FBBEE57D8C2AB29BCD5E99B797 /* MarginAdjustable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MarginAdjustable.swift; path = SwiftMessages/MarginAdjustable.swift; sourceTree = "<group>"; };
+		AB69C51B5488A7A83A822A264C72CEC6 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Utils.swift"; path = "SwiftMessages/UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		ADB417E59FE124231F341D51DB9DC3F4 /* CameraView.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = CameraView.strings; path = ALCameraViewController/CameraView.strings; sourceTree = "<group>"; };
+		AE20D7BF15F4925F0961EB4D810635C9 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		AEF3034B1E4C216F01726C5DDDA21811 /* Pods-ChatFire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatFire-dummy.m"; sourceTree = "<group>"; };
+		B44FF3DB29F8EC44FCADFCE9BEC70962 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		B62B01C4F39C95448A42E41DF6A1BD5E /* NSBundle+Utils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+Utils.swift"; path = "SwiftMessages/NSBundle+Utils.swift"; sourceTree = "<group>"; };
+		B87343ED71FBFD8290C6CA274370B6A2 /* ConfirmViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConfirmViewController.swift; path = ALCameraViewController/ViewController/ConfirmViewController.swift; sourceTree = "<group>"; };
+		BD3AE2EDA469488918972E2F99D80845 /* ALCameraViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ALCameraViewController.xcconfig; sourceTree = "<group>"; };
+		C0BD3A4F2263973E7EC10EABF77421C8 /* Pods-ChatFireUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatFireUITests-umbrella.h"; sourceTree = "<group>"; };
+		C76A13616CA277271DE4B0084621ED19 /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
+		CA78765EFE00746455957B08A8115E5A /* Pods_ChatFireTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatFireTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0008E01931EA96D2ED578024E0A2D69 /* ConfirmViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ConfirmViewController.xib; path = ALCameraViewController/ViewController/ConfirmViewController.xib; sourceTree = "<group>"; };
+		D262F217CE8806D38EB2EE862D38D6EF /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		D4E816CE47F62F810B49AD04CCE090AA /* BaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseView.swift; path = SwiftMessages/BaseView.swift; sourceTree = "<group>"; };
+		DD18BD6993FA66A6957966E9B04E65A7 /* PhotoLibraryAuthorizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PhotoLibraryAuthorizer.swift; path = ALCameraViewController/Utilities/PhotoLibraryAuthorizer.swift; sourceTree = "<group>"; };
+		DDD72718AD936E57F34D5D41C78271DB /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = SwiftMessages/Theme.swift; sourceTree = "<group>"; };
+		E066E0F8E7A23977F54B6347F42BB181 /* ResourceBundle-SwiftMessages-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SwiftMessages-Info.plist"; sourceTree = "<group>"; };
+		E0E42A0AB435E04B924F693751087A3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E74968309ED13468D6C486B60C3D4A76 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = ALCameraViewController/Utilities/UIViewExtensions.swift; sourceTree = "<group>"; };
+		E810E449F0B46781D9C6CB5949C641BA /* Pods-ChatFireTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatFireTests-frameworks.sh"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9B90078F9DE05275C9039FEAB0742A6 /* View+SnapKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "View+SnapKit.swift"; path = "Source/View+SnapKit.swift"; sourceTree = "<group>"; };
+		EC24A853F0C6E3A0144266DCE247FCCF /* Pods-ChatFireTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatFireTests-dummy.m"; sourceTree = "<group>"; };
+		EC539837E23C98CB3BB5F3E96EA75EB3 /* Pods-ChatFireUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatFireUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC87E3C9F004FB4325F4C0558F441DBA /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		EDAE52AAE85BE8AAB23FBEFEC754F6C4 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = ALCameraViewController/Utilities/Utilities.swift; sourceTree = "<group>"; };
+		F1223A53E26017D23F21FCF5066C92DD /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
+		F2F7C06CCFBE852E435152021968F3B4 /* Pods-ChatFire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatFire.release.xcconfig"; sourceTree = "<group>"; };
+		F3B3BD63B55BCE90CF1CAC9A3BDB8A8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3D517FACFAD9456524CCEB6B127AE3A /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = SwiftMessages/Error.swift; sourceTree = "<group>"; };
+		F540BE7716AA37E64B8C621437CFE786 /* CropOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropOverlay.swift; path = ALCameraViewController/Views/CropOverlay.swift; sourceTree = "<group>"; };
+		F5FA6F04BBCBB06CF3BD8ADD370EC091 /* CameraGlobals.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraGlobals.swift; path = ALCameraViewController/Utilities/CameraGlobals.swift; sourceTree = "<group>"; };
+		FC6B67CC72D9C332A9FDEB628AA774B0 /* EdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeInsets.swift; path = Source/EdgeInsets.swift; sourceTree = "<group>"; };
+		FDF487A54504EBD2A132C29E61850A78 /* TabView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TabView.xib; path = SwiftMessages/Resources/TabView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B81E79F517370D43741D65115EA773D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1706C1F26CDA98129FE522B2331B3D61 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CB983556107C499C6EAAA92E50EFA44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3224858C13E9A856221115004589F58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62AC6891811CC4B956C575A75C795B38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A893F22BD02E77DA45D40BC1C4F2A47 /* Foundation.framework in Frameworks */,
+				FD74F3564C22CC24F1C97B5C47282CFC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7736E25A2DCA33D67CE9FFB58BB4BC71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C64B7931905437294D4510226C40DAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DD9C2B1770C339EE7DBEFF84A23FB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93A2E342B8672F04F1879ADE70E99644 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FCB7A956C09C6CB8BA286F84C9BA5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4ACAD066A274280BF876C59E78C26C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E512334DB289B19E5C20B31D7925D429 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08D063B547CBF9E4E96B470E3337B3FB /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F1A68D4860E2D45A9015273A2D7EA04D /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		0CE9B8A20D5C952047B00EC6E13B77C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FC1191DBA67FB48626FFE9F3DD78E26 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D2407F0FAD21ECF937D0284B5379014 /* Pods-ChatFire */ = {
+			isa = PBXGroup;
+			children = (
+				1F3D2AC00F2AC16671ECA04EFAA2D7D0 /* Info.plist */,
+				6226C0844B6F913170C12E473D343AC3 /* Pods-ChatFire.modulemap */,
+				6AC51DAFF2B24D5EDF5A554F3AE6D1DC /* Pods-ChatFire-acknowledgements.markdown */,
+				3AAC49405091A5C91D6DC9FC7FA9D5EC /* Pods-ChatFire-acknowledgements.plist */,
+				AEF3034B1E4C216F01726C5DDDA21811 /* Pods-ChatFire-dummy.m */,
+				37326AFEEC207EB32455B38FE47D7352 /* Pods-ChatFire-frameworks.sh */,
+				08F1747578C477DE661573D29CAB3DD8 /* Pods-ChatFire-resources.sh */,
+				5D52CB11175994EEC70ECAF0001A7D63 /* Pods-ChatFire-umbrella.h */,
+				8F94BA8E3BC9368ECA8B7B01E4C3D6AC /* Pods-ChatFire.debug.xcconfig */,
+				F2F7C06CCFBE852E435152021968F3B4 /* Pods-ChatFire.release.xcconfig */,
+			);
+			name = "Pods-ChatFire";
+			path = "Target Support Files/Pods-ChatFire";
+			sourceTree = "<group>";
+		};
+		0D70DCFE1E28C57B01D14C3D79196DFA /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				C9AEAA87BFAE823F917F181E4ADAD5C8 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		174170880DBD9FFC4EC15191E65FA219 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				CD04B075D8AAF0A027A7D2556BBD6F5A /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		17C1847B13242E07910728BF66A1A1ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7BB446AE1FDD5ECEB6C60893BD4B2BAE /* ALCameraViewController */,
+				FBEBD509502D75F5B86B462888F85BC1 /* Firebase */,
+				0D70DCFE1E28C57B01D14C3D79196DFA /* FirebaseAnalytics */,
+				DAEDF150BCF2E97E27F2B1AA445EC8C0 /* FirebaseAuth */,
+				7AB06E77D6D04E8E27ED1EEF1EA15586 /* FirebaseDatabase */,
+				23502A23806F6DD3AFD9E790435F0D62 /* FirebaseInstanceID */,
+				174170880DBD9FFC4EC15191E65FA219 /* FirebaseStorage */,
+				9650323C8F055F7A7A16E9C73400A289 /* GoogleInterchangeUtilities */,
+				698BB0E287224126D5CB2140FEAD06B5 /* GoogleNetworkingUtilities */,
+				9048FCB600C42817EF24558787E93E9D /* GoogleParsingUtilities */,
+				67F55508FAD58E32F5782794C303A605 /* GoogleSymbolUtilities */,
+				08D063B547CBF9E4E96B470E3337B3FB /* GoogleUtilities */,
+				7D2892865C10548DDD58C3890C0BB8CA /* SnapKit */,
+				E41B4D5407329E52E8BF7BCAE576F26E /* SwiftMessages */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1818F230DDDD74C2943546A68E3ADD74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F5D584BD0D2ECFF33AFDDABDF25B783 /* CardView.xib */,
+				54A61659725974823DCDAF50CF3DAF1A /* Images.xcassets */,
+				986402096833A5B468823E121330DD0B /* MessageView.xib */,
+				6C07D150914CEA668562AA79D456316B /* MessageViewIOS8.xib */,
+				5C461803870D23E77677439C7AFA3D87 /* StatusLine.xib */,
+				FDF487A54504EBD2A132C29E61850A78 /* TabView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2247E8657069D012DDE13E386183EC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B44FF3DB29F8EC44FCADFCE9BEC70962 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23502A23806F6DD3AFD9E790435F0D62 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				6FA933A7276D62FF8268CCFC9B615C40 /* FIRInstanceID.h */,
+				2247E8657069D012DDE13E386183EC76 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44AAE819E6CF011E688F1F8B9B4F391A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6245FB5329E8E45D71F7281C285B1917 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49C999F5C2B86C2246223F19B4E7EF0E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADB417E59FE124231F341D51DB9DC3F4 /* CameraView.strings */,
+				912CAECC344CB3CACD74D76CE0E4BBCA /* CameraViewAssets.xcassets */,
+				D0008E01931EA96D2ED578024E0A2D69 /* ConfirmViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		67F55508FAD58E32F5782794C303A605 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				CA225525AAFB7D9A0F217513E41603CF /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		698BB0E287224126D5CB2140FEAD06B5 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC858E7856805A8E992CA49C2DBC4970 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		7A5C13B08380D107F9F09561918D9D96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E42A0AB435E04B924F693751087A3A /* Info.plist */,
+				E066E0F8E7A23977F54B6347F42BB181 /* ResourceBundle-SwiftMessages-Info.plist */,
+				66DA9A3D5FE5CD2018BE74EE6EAA8F95 /* SwiftMessages.modulemap */,
+				8E0251CB57F30EF0812F6AFE16A0A8B6 /* SwiftMessages.xcconfig */,
+				911DD7BA9D31F39BA64822CA350E9041 /* SwiftMessages-dummy.m */,
+				676FFDB7F8A3A08DA5D57F501E8E6DE5 /* SwiftMessages-prefix.pch */,
+				30BD7CFE575C29A947C107A53FA3C1E5 /* SwiftMessages-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftMessages";
+			sourceTree = "<group>";
+		};
+		7AB06E77D6D04E8E27ED1EEF1EA15586 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				44AAE819E6CF011E688F1F8B9B4F391A /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		7BB446AE1FDD5ECEB6C60893BD4B2BAE /* ALCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F5FA6F04BBCBB06CF3BD8ADD370EC091 /* CameraGlobals.swift */,
+				61393C28CFF41F68EE293DFA544AA9DB /* CameraShot.swift */,
+				9F7B7B314E6A5CAA5D4CA9DB8AE9A9FA /* CameraView.swift */,
+				7AE1EC95633B9320CE4683C3BF572904 /* CameraViewController.swift */,
+				857449D5B7A547F92A1512F78016BBBB /* CameraViewControllerConstraint.swift */,
+				B87343ED71FBFD8290C6CA274370B6A2 /* ConfirmViewController.swift */,
+				F540BE7716AA37E64B8C621437CFE786 /* CropOverlay.swift */,
+				009C5A05A5F422ABAEE6953E8E9FCF89 /* ImageCell.swift */,
+				5C77711F70E314DF09D845EC14D70417 /* ImageFetcher.swift */,
+				99CC1D7B6727E8F745473CC0D917CB18 /* PermissionsView.swift */,
+				DD18BD6993FA66A6957966E9B04E65A7 /* PhotoLibraryAuthorizer.swift */,
+				3C3AF2F429C8420A727C0706DA997AD9 /* PhotoLibraryViewController.swift */,
+				23484D1CC0E0CFEE43DC393CA9F93253 /* SingleImageFetcher.swift */,
+				2BC2DB3AF0EC41672695988B56C87CF7 /* SingleImageSaver.swift */,
+				8B35167789DC9F9F1F2317485FCE0296 /* UIButtonExtensions.swift */,
+				E74968309ED13468D6C486B60C3D4A76 /* UIViewExtensions.swift */,
+				EDAE52AAE85BE8AAB23FBEFEC754F6C4 /* Utilities.swift */,
+				A17F0332B13E46558C458A12C52EB36F /* VolumeControl.swift */,
+				49C999F5C2B86C2246223F19B4E7EF0E /* Resources */,
+				F60DDE6E3FF651AC6D69574E4FC79F07 /* Support Files */,
+			);
+			path = ALCameraViewController;
+			sourceTree = "<group>";
+		};
+		7D2892865C10548DDD58C3890C0BB8CA /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				203A7D0CC0D9FE70AFD3E41D26DF3B34 /* Constraint.swift */,
+				3F0F744CA0268FA2812C27D120ED59DB /* ConstraintAttributes.swift */,
+				2E5187B01A435EF00F433A425429D8B2 /* ConstraintDescription.swift */,
+				C76A13616CA277271DE4B0084621ED19 /* ConstraintItem.swift */,
+				A308AA81E896D7D721C6E62B67445EA1 /* ConstraintMaker.swift */,
+				F1223A53E26017D23F21FCF5066C92DD /* ConstraintRelation.swift */,
+				8AC083BAC24C136951D5D709D5C98B31 /* Debugging.swift */,
+				FC6B67CC72D9C332A9FDEB628AA774B0 /* EdgeInsets.swift */,
+				EC87E3C9F004FB4325F4C0558F441DBA /* LayoutConstraint.swift */,
+				1BE38DFE879EB9D63BB5C606D98EF0A3 /* SnapKit.swift */,
+				E9B90078F9DE05275C9039FEAB0742A6 /* View+SnapKit.swift */,
+				88216C26D7616AF102C1867630FCA901 /* ViewController+SnapKit.swift */,
+				9BC9DB04CE8948B2FB7AD64CC4E57E0A /* Support Files */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				17C1847B13242E07910728BF66A1A1ED /* Pods */,
+				F3DFFF47CD6006DEE84E2E4783EF0BB0 /* Products */,
+				9B3B5D751058DE6D188F0A3DD02D7701 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9048FCB600C42817EF24558787E93E9D /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				AEF34ED3B02A0954FB4E9CD3E53AC1FA /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		9650323C8F055F7A7A16E9C73400A289 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0CE9B8A20D5C952047B00EC6E13B77C6 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		9B3B5D751058DE6D188F0A3DD02D7701 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D2407F0FAD21ECF937D0284B5379014 /* Pods-ChatFire */,
+				AF396E475F9290E14059B14D69387943 /* Pods-ChatFireTests */,
+				F6F0078B2C244C488B2F056E991E6E33 /* Pods-ChatFireUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9BC9DB04CE8948B2FB7AD64CC4E57E0A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DB5D9BF78F7DCADB28C19184D37C08E /* Info.plist */,
+				AE20D7BF15F4925F0961EB4D810635C9 /* SnapKit.modulemap */,
+				7D605C0709E67B034457E0F15F1AD1FF /* SnapKit.xcconfig */,
+				A31C2A121908BAC61FF9169A115A9D67 /* SnapKit-dummy.m */,
+				95264B0300E1278CC2FB7FAD6F67D0AF /* SnapKit-prefix.pch */,
+				7EE25643CD3EFB80D2893C538C5EA5E5 /* SnapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SnapKit";
+			sourceTree = "<group>";
+		};
+		AD0A0A87D8202181A9792F039C8077C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D262F217CE8806D38EB2EE862D38D6EF /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEF34ED3B02A0954FB4E9CD3E53AC1FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75D14FFC7DF047C0FA14E62BB4E581BC /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF396E475F9290E14059B14D69387943 /* Pods-ChatFireTests */ = {
+			isa = PBXGroup;
+			children = (
+				6028CDE5B93EDF5777E4F27CF0E80B6E /* Info.plist */,
+				62344C02403C553C1F6E35F099513FD2 /* Pods-ChatFireTests.modulemap */,
+				814D28B69180D012BDFE8AF82E111AB6 /* Pods-ChatFireTests-acknowledgements.markdown */,
+				91F3D5D11FD3802F6608B8F10AA46937 /* Pods-ChatFireTests-acknowledgements.plist */,
+				EC24A853F0C6E3A0144266DCE247FCCF /* Pods-ChatFireTests-dummy.m */,
+				E810E449F0B46781D9C6CB5949C641BA /* Pods-ChatFireTests-frameworks.sh */,
+				5319EC232BA3A2ABFD9714405C1DFFF9 /* Pods-ChatFireTests-resources.sh */,
+				115B56F78130E675A3CA12A04B6D2F23 /* Pods-ChatFireTests-umbrella.h */,
+				4D8E993FB5C25FEA70A5E161D981E759 /* Pods-ChatFireTests.debug.xcconfig */,
+				4ADA7E8EEE9A4A5B93D2AB48B1DDD49A /* Pods-ChatFireTests.release.xcconfig */,
+			);
+			name = "Pods-ChatFireTests";
+			path = "Target Support Files/Pods-ChatFireTests";
+			sourceTree = "<group>";
+		};
+		BC858E7856805A8E992CA49C2DBC4970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B787C609650769EF1CAA4B9C0EC9CAD /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7D8109954B123A2538397512F2885B6 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				35F49F2109E6B6EF4A9D3EAE93D77FB6 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		C9AEAA87BFAE823F917F181E4ADAD5C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5459A14471BB255E8122F8A6586A633B /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA225525AAFB7D9A0F217513E41603CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FBE3F533A9B9D3ED715B77A5F5BD0DF /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD04B075D8AAF0A027A7D2556BBD6F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7304D93E581AE6C8B27661FA543E86F3 /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAEDF150BCF2E97E27F2B1AA445EC8C0 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				AD0A0A87D8202181A9792F039C8077C0 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		E41B4D5407329E52E8BF7BCAE576F26E /* SwiftMessages */ = {
+			isa = PBXGroup;
+			children = (
+				43927DAA53467EB801069920ACD217CC /* BackgroundViewable.swift */,
+				D4E816CE47F62F810B49AD04CCE090AA /* BaseView.swift */,
+				F3D517FACFAD9456524CCEB6B127AE3A /* Error.swift */,
+				7E447BC315A28F3C4C63E15E9AF74FAE /* Identifiable.swift */,
+				A7CC93FBBEE57D8C2AB29BCD5E99B797 /* MarginAdjustable.swift */,
+				89B30A14DD57AB521FAA2743FBA6748C /* MessageView.swift */,
+				B62B01C4F39C95448A42E41DF6A1BD5E /* NSBundle+Utils.swift */,
+				2E97DB5651A1DEC6B37B8D6C7721B216 /* PassthroughView.swift */,
+				329E73A8E47EB72B4450952D84E6972F /* PassthroughWindow.swift */,
+				6298B9DF119A3CA56A3995CF528BF6FB /* Presenter.swift */,
+				2837243C9A7796FA546E1D2EB5E5A999 /* SwiftMessages.swift */,
+				DDD72718AD936E57F34D5D41C78271DB /* Theme.swift */,
+				AB69C51B5488A7A83A822A264C72CEC6 /* UIViewController+Utils.swift */,
+				1E71E648D1EE124CE147BC9DDDA19C25 /* WindowViewController.swift */,
+				1818F230DDDD74C2943546A68E3ADD74 /* Resources */,
+				7A5C13B08380D107F9F09561918D9D96 /* Support Files */,
+			);
+			path = SwiftMessages;
+			sourceTree = "<group>";
+		};
+		F1A68D4860E2D45A9015273A2D7EA04D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C0FA7ADFC952FAE08382B4CE3238CB0 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3DFFF47CD6006DEE84E2E4783EF0BB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A45075208CE5636921C33FC2DF5A4380 /* ALCameraViewController.framework */,
+				75879C5839F7B9E25620F0D4AF483A75 /* Pods_ChatFire.framework */,
+				CA78765EFE00746455957B08A8115E5A /* Pods_ChatFireTests.framework */,
+				0F24184280065BDC65EBD3AA91C20E35 /* Pods_ChatFireUITests.framework */,
+				58204A534F3B0DDA6F055B90F76B9D6C /* SnapKit.framework */,
+				3DE14E4B5E8E1FC63503ACB4FD764BC9 /* SwiftMessages.bundle */,
+				4E611E069B2C6C17F262924640EF95F2 /* SwiftMessages.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F60DDE6E3FF651AC6D69574E4FC79F07 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				309B97105F76C85C17B9FFB622E2C2D9 /* ALCameraViewController.modulemap */,
+				BD3AE2EDA469488918972E2F99D80845 /* ALCameraViewController.xcconfig */,
+				19961B264478597AD453C89B9A060501 /* ALCameraViewController-dummy.m */,
+				21E06102C016D5A0601A31E7C3D826EE /* ALCameraViewController-prefix.pch */,
+				0BF72A19C64C201BD3DFB36A920D7ED1 /* ALCameraViewController-umbrella.h */,
+				F3B3BD63B55BCE90CF1CAC9A3BDB8A8F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ALCameraViewController";
+			sourceTree = "<group>";
+		};
+		F6F0078B2C244C488B2F056E991E6E33 /* Pods-ChatFireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				502703D2CC49BBB67670D44378C7CDD8 /* Info.plist */,
+				3FEB6C05DDB141B8D70B1C6B256B9430 /* Pods-ChatFireUITests.modulemap */,
+				84D5DC2DD6EA6369CABC60977F50CABC /* Pods-ChatFireUITests-acknowledgements.markdown */,
+				95A031AA732C2E1BD35840DD840A5C08 /* Pods-ChatFireUITests-acknowledgements.plist */,
+				2355F875BB98F7E774AAC09E0FBDF269 /* Pods-ChatFireUITests-dummy.m */,
+				7578A475E7245370EE673654AFA26B9B /* Pods-ChatFireUITests-frameworks.sh */,
+				05494F39EB4BD20F2588A4FD0459CE49 /* Pods-ChatFireUITests-resources.sh */,
+				C0BD3A4F2263973E7EC10EABF77421C8 /* Pods-ChatFireUITests-umbrella.h */,
+				EC539837E23C98CB3BB5F3E96EA75EB3 /* Pods-ChatFireUITests.debug.xcconfig */,
+				941B6DBBDC7A4921ABC53D914FE23B4B /* Pods-ChatFireUITests.release.xcconfig */,
+			);
+			name = "Pods-ChatFireUITests";
+			path = "Target Support Files/Pods-ChatFireUITests";
+			sourceTree = "<group>";
+		};
+		FBEBD509502D75F5B86B462888F85BC1 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				C7D8109954B123A2538397512F2885B6 /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58FE6A011C13AED1535D02C17CA4CA65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB1305056D08EE410FDDA5B99FD88A8 /* SnapKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		891A34A2E76DA90B4B8B545EC4EE5016 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3ABEF7B31AA3BA8300AA7D4864BCF6 /* SwiftMessages-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C286A8197EA2536EF8F7581D4D4CFE3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B788451544D8D86D415662D6ECC9C6F4 /* Pods-ChatFireTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F0072FB810A75EB524F7FD9B6D2A9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3ED4024EBF978156D113F80A7792AC7 /* ALCameraViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEAF45323F5A87F39C79671FC2E819A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558549EABC6A7A93266A1C0D3ABACB14 /* Pods-ChatFire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF13B9B4E1D5E707022EDE9DF180DE59 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2440A397FF747D03CE625A87EFE88B25 /* Pods-ChatFireUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1408792E1179568B97291790E1BC2B6F /* Pods-ChatFire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A55477D943CC3CCA7638DD1A3E721DF2 /* Build configuration list for PBXNativeTarget "Pods-ChatFire" */;
+			buildPhases = (
+				F5445EE1A606E8A8FA4077B4DA49740B /* Sources */,
+				0B81E79F517370D43741D65115EA773D /* Frameworks */,
+				EEAF45323F5A87F39C79671FC2E819A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1F6EF1D065E9A82CE2B1BA494FF1872 /* PBXTargetDependency */,
+				EA20963DC00ED161CC410A02A058D003 /* PBXTargetDependency */,
+				502BC0EEE2291275E9912EC43804F282 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatFire";
+			productName = "Pods-ChatFire";
+			productReference = 75879C5839F7B9E25620F0D4AF483A75 /* Pods_ChatFire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F78BE59ADF03107FA7FF06EF485709D /* Pods-ChatFireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037C42760802DF74760041C411E7479F /* Build configuration list for PBXNativeTarget "Pods-ChatFireUITests" */;
+			buildPhases = (
+				2D1D5A180B38F51ADA97EB5F0FA0E200 /* Sources */,
+				F4ACAD066A274280BF876C59E78C26C6 /* Frameworks */,
+				EF13B9B4E1D5E707022EDE9DF180DE59 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChatFireUITests";
+			productName = "Pods-ChatFireUITests";
+			productReference = 0F24184280065BDC65EBD3AA91C20E35 /* Pods_ChatFireUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33E4F713A94BEAB9FC6679DFE02DD47C /* SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804BD40BAC2F264858FBBAC344E49729 /* Build configuration list for PBXNativeTarget "SwiftMessages" */;
+			buildPhases = (
+				0B7CCE35A00CBAD894D6C2A77B67E41F /* Sources */,
+				62AC6891811CC4B956C575A75C795B38 /* Frameworks */,
+				63DF3C96370A083C3B68FADED3320E26 /* Resources */,
+				891A34A2E76DA90B4B8B545EC4EE5016 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F095C404BCAF8A9DE1D12B59CC866E1 /* PBXTargetDependency */,
+			);
+			name = SwiftMessages;
+			productName = SwiftMessages;
+			productReference = 4E611E069B2C6C17F262924640EF95F2 /* SwiftMessages.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46979295CA9807284542F22A808E388F /* SnapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58D5EEC6581AD999962D58DF9E257CC5 /* Build configuration list for PBXNativeTarget "SnapKit" */;
+			buildPhases = (
+				DD4874D01B01865E2379B2BDAC19FA31 /* Sources */,
+				7736E25A2DCA33D67CE9FFB58BB4BC71 /* Frameworks */,
+				58FE6A011C13AED1535D02C17CA4CA65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapKit;
+			productName = SnapKit;
+			productReference = 58204A534F3B0DDA6F055B90F76B9D6C /* SnapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		92D08F933F9C40DB60A3B7E37B34EF54 /* SwiftMessages-SwiftMessages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9036E91B982F3995C9ECAFAB9A60BACB /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */;
+			buildPhases = (
+				79EBBE7B36319A02304F6FA4DBBE0E30 /* Sources */,
+				7DD9C2B1770C339EE7DBEFF84A23FB16 /* Frameworks */,
+				8FF3C7C4ECD0079801BB0009DE02A5ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftMessages-SwiftMessages";
+			productName = "SwiftMessages-SwiftMessages";
+			productReference = 3DE14E4B5E8E1FC63503ACB4FD764BC9 /* SwiftMessages.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DAEFE5845A9A47287B43BE713DFD4B08 /* ALCameraViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BA2FC259999CD7A5937B0E53E3A19FE /* Build configuration list for PBXNativeTarget "ALCameraViewController" */;
+			buildPhases = (
+				2215D0455CCAFA96257948CD09BB4CAA /* Sources */,
+				5CB983556107C499C6EAAA92E50EFA44 /* Frameworks */,
+				46B9EBA864B0B4B79BC7EBBD37C32595 /* Resources */,
+				E8F0072FB810A75EB524F7FD9B6D2A9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALCameraViewController;
+			productName = ALCameraViewController;
+			productReference = A45075208CE5636921C33FC2DF5A4380 /* ALCameraViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E88491B5A2BA3F951DEF44F3D79C2DEA /* Pods-ChatFireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34EBD292DFBE5719DF1E88B8FE3D3BE4 /* Build configuration list for PBXNativeTarget "Pods-ChatFireTests" */;
+			buildPhases = (
+				2CC824D242ED437BA0F081AB20BA34A8 /* Sources */,
+				93A2E342B8672F04F1879ADE70E99644 /* Frameworks */,
+				C286A8197EA2536EF8F7581D4D4CFE3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ChatFireTests";
+			productName = "Pods-ChatFireTests";
+			productReference = CA78765EFE00746455957B08A8115E5A /* Pods_ChatFireTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F3DFFF47CD6006DEE84E2E4783EF0BB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAEFE5845A9A47287B43BE713DFD4B08 /* ALCameraViewController */,
+				1408792E1179568B97291790E1BC2B6F /* Pods-ChatFire */,
+				E88491B5A2BA3F951DEF44F3D79C2DEA /* Pods-ChatFireTests */,
+				1F78BE59ADF03107FA7FF06EF485709D /* Pods-ChatFireUITests */,
+				46979295CA9807284542F22A808E388F /* SnapKit */,
+				33E4F713A94BEAB9FC6679DFE02DD47C /* SwiftMessages */,
+				92D08F933F9C40DB60A3B7E37B34EF54 /* SwiftMessages-SwiftMessages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46B9EBA864B0B4B79BC7EBBD37C32595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3AB8B9A6BF3D7C6AD248D750C4AF3DA /* CameraView.strings in Resources */,
+				4C115F1FF41B66803D010883277F87E2 /* CameraViewAssets.xcassets in Resources */,
+				D949A968AD3CDC949C94394BDFD02B65 /* ConfirmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DF3C96370A083C3B68FADED3320E26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692E07BC54AA55E6EF5625573D220DA9 /* SwiftMessages.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FF3C7C4ECD0079801BB0009DE02A5ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA27610C5152BBDFE99F6229CE8C9378 /* CardView.xib in Resources */,
+				4FBB34CB8D8620299FD042924101DC49 /* Images.xcassets in Resources */,
+				0203761D6835438CD43CF8F0684FB66F /* MessageView.xib in Resources */,
+				1214644C671C6B6D4AD7780706516E84 /* MessageViewIOS8.xib in Resources */,
+				78568B7D0366E184E71C0B9AFDB74865 /* StatusLine.xib in Resources */,
+				3115426677D1A8057D3B442ADB709B37 /* TabView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B7CCE35A00CBAD894D6C2A77B67E41F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49A2146EAC8EC251274FC57DC423CC3 /* BackgroundViewable.swift in Sources */,
+				BFC253DA64BA545C1A08B3BEB1339D13 /* BaseView.swift in Sources */,
+				2B213C45BFE0B4B0ABD517C26BAFEFE7 /* Error.swift in Sources */,
+				ABB787AC4591808F9A69A96A4F01C45A /* Identifiable.swift in Sources */,
+				C1EC2F9EFA466FA2259A2F4FBFC5EA33 /* MarginAdjustable.swift in Sources */,
+				30F9D542E2A047783C17125062982B3D /* MessageView.swift in Sources */,
+				7DA24540428EC4378795607A676B53FF /* NSBundle+Utils.swift in Sources */,
+				C608701A4CA5D59EB2CED6CF44C9C00A /* PassthroughView.swift in Sources */,
+				4E678B9AF68CB04DC889438977785F86 /* PassthroughWindow.swift in Sources */,
+				E727DFE6AF105EA2FA5C594BF205CB13 /* Presenter.swift in Sources */,
+				55795B355AAB00CFC3A29D2DE4A819AD /* SwiftMessages-dummy.m in Sources */,
+				A1489A8D61EE14A6E043550EB67E5017 /* SwiftMessages.swift in Sources */,
+				3E567A35BE25E393670D5FD60ABACC35 /* Theme.swift in Sources */,
+				7B66AAD5B8A7A1FED3AD97862ECBDB6E /* UIViewController+Utils.swift in Sources */,
+				584628DFDEE343FFDDCAB88693C05FF1 /* WindowViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2215D0455CCAFA96257948CD09BB4CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A19228C1166CE5B1D5E857B2F94173 /* ALCameraViewController-dummy.m in Sources */,
+				184488E443B6D2A85DA45AD3D21245B1 /* CameraGlobals.swift in Sources */,
+				8F4A966830ABFC9639F5250B2AE9DF7B /* CameraShot.swift in Sources */,
+				A940E8F9C140B8C66EFF4D1483297520 /* CameraView.swift in Sources */,
+				32ACAD182A9C90C563170CF45CC65A5C /* CameraViewController.swift in Sources */,
+				E2560A7275A61939751F09B8163EBA16 /* CameraViewControllerConstraint.swift in Sources */,
+				45E1DF3AA2D60E7402D56EE637898FF6 /* ConfirmViewController.swift in Sources */,
+				705D53790CC8B18997358B20F268F7F3 /* CropOverlay.swift in Sources */,
+				3AB8980724808427937EC099A399DF0E /* ImageCell.swift in Sources */,
+				29880E5ABF060C5BD17C0606DBE10D7B /* ImageFetcher.swift in Sources */,
+				E5F334E181A8EDCE0B0CE084957957A7 /* PermissionsView.swift in Sources */,
+				B792160E0DF8BABD00BA2D01D992572E /* PhotoLibraryAuthorizer.swift in Sources */,
+				571340FD7CCFE8BAC3A2F08E0CD9CED5 /* PhotoLibraryViewController.swift in Sources */,
+				1D1FE38C62B9D2AD8E29A04949DD1C6F /* SingleImageFetcher.swift in Sources */,
+				0CB770CD249FAA5736ECD96141497AE2 /* SingleImageSaver.swift in Sources */,
+				093E724BAAE245FB7F7304E8663F9668 /* UIButtonExtensions.swift in Sources */,
+				21B9C65EB3542F7DF279B8090F165EBD /* UIViewExtensions.swift in Sources */,
+				728A45B8B971047BDB308AE2141F3DC8 /* Utilities.swift in Sources */,
+				118DE5355C8C4BC5EBB1C2034E7CC058 /* VolumeControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CC824D242ED437BA0F081AB20BA34A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72C71207A3CBA0CED201AC23FB9F3F98 /* Pods-ChatFireTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D1D5A180B38F51ADA97EB5F0FA0E200 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F2572FE7F54FA3E588B05F4575AD40 /* Pods-ChatFireUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EBBE7B36319A02304F6FA4DBBE0E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4874D01B01865E2379B2BDAC19FA31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FA103E2BF447F6C919A47AC13A82F11 /* Constraint.swift in Sources */,
+				FE61433AD66CAE1EEB428122B59BE50A /* ConstraintAttributes.swift in Sources */,
+				985DDBC4541695352EC2A8D1E925E3F9 /* ConstraintDescription.swift in Sources */,
+				0FC1E2387E06E770139DE5787DF33339 /* ConstraintItem.swift in Sources */,
+				43C97F7082437D97E975BAE6A7F851F0 /* ConstraintMaker.swift in Sources */,
+				78769D114789C373E74F5D01E1608AFD /* ConstraintRelation.swift in Sources */,
+				1CCD0CA6E3C465AF0718C67976B080ED /* Debugging.swift in Sources */,
+				534954F721DA5E351CF5720C56ABF945 /* EdgeInsets.swift in Sources */,
+				B23DF255AEE320E899576D9812C6B93B /* LayoutConstraint.swift in Sources */,
+				784F19976154B9D5F59602F73A38DFFE /* SnapKit-dummy.m in Sources */,
+				ED614CC5534D609D98FDA366D19EE83B /* SnapKit.swift in Sources */,
+				607EEE01B707C7CDE120933BA9B24CC9 /* View+SnapKit.swift in Sources */,
+				E8199BB130FD4C54CF3A283B2B14C48A /* ViewController+SnapKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5445EE1A606E8A8FA4077B4DA49740B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				973DAA137682A138731C2E81A8B18C90 /* Pods-ChatFire-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F095C404BCAF8A9DE1D12B59CC866E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftMessages-SwiftMessages";
+			target = 92D08F933F9C40DB60A3B7E37B34EF54 /* SwiftMessages-SwiftMessages */;
+			targetProxy = 942FDA8A0190B7ED3DC47B19F965098E /* PBXContainerItemProxy */;
+		};
+		502BC0EEE2291275E9912EC43804F282 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftMessages;
+			target = 33E4F713A94BEAB9FC6679DFE02DD47C /* SwiftMessages */;
+			targetProxy = AC46C86493A228508F6B969A8CFB2B21 /* PBXContainerItemProxy */;
+		};
+		C1F6EF1D065E9A82CE2B1BA494FF1872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ALCameraViewController;
+			target = DAEFE5845A9A47287B43BE713DFD4B08 /* ALCameraViewController */;
+			targetProxy = CC01D0F7851D5F6BABB20EBF7BE253CE /* PBXContainerItemProxy */;
+		};
+		EA20963DC00ED161CC410A02A058D003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnapKit;
+			target = 46979295CA9807284542F22A808E388F /* SnapKit */;
+			targetProxy = 0E64F6CBF63CFA22FC028846D0C207EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32781634E789B9E240F8369B1DCA6A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F94BA8E3BC9368ECA8B7B01E4C3D6AC /* Pods-ChatFire.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatFire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatFire/Pods-ChatFire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatFire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5311AF5C1375D3127103CEBAE164AB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3AE2EDA469488918972E2F99D80845 /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5D9A05901D661C5805827147F06EBEA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0251CB57F30EF0812F6AFE16A0A8B6 /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6A0BF23BF364B17FAA7A7808C67B8492 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ADA7E8EEE9A4A5B93D2AB48B1DDD49A /* Pods-ChatFireTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatFireTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatFireTests/Pods-ChatFireTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatFireTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F853CA4451DD26A1A3DB1C25AEACF95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3AE2EDA469488918972E2F99D80845 /* ALCameraViewController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ALCameraViewController/ALCameraViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ALCameraViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ALCameraViewController/ALCameraViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ALCameraViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7177BAC305E9D9B7C412EB3ECD0551F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2F7C06CCFBE852E435152021968F3B4 /* Pods-ChatFire.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatFire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatFire/Pods-ChatFire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatFire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7263E31D527756C4C8A267870E72A368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941B6DBBDC7A4921ABC53D914FE23B4B /* Pods-ChatFireUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatFireUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatFireUITests/Pods-ChatFireUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatFireUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7726224447B2CB0F1418C9DC981B76E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D605C0709E67B034457E0F15F1AD1FF /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		83358F73AEC0DC7699FCB904D1B194EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8E993FB5C25FEA70A5E161D981E759 /* Pods-ChatFireTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatFireTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatFireTests/Pods-ChatFireTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatFireTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9558034612EE7A780FDD11D8BFA1C5D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0251CB57F30EF0812F6AFE16A0A8B6 /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SwiftMessages";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/ResourceBundle-SwiftMessages-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9F7024AF1DA9E8633EE2B6D6E9FE71B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D605C0709E67B034457E0F15F1AD1FF /* SnapKit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SnapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SnapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BE3B314FBA7A5976C06C8C487DEAE9A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC539837E23C98CB3BB5F3E96EA75EB3 /* Pods-ChatFireUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatFireUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatFireUITests/Pods-ChatFireUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ChatFireUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DEC21F5E2DEDC923DD5026DDE23D8FDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0251CB57F30EF0812F6AFE16A0A8B6 /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F793C869A3CDF8F6FECA11BAE4202B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E0251CB57F30EF0812F6AFE16A0A8B6 /* SwiftMessages.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftMessages/SwiftMessages-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftMessages/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftMessages/SwiftMessages.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftMessages;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037C42760802DF74760041C411E7479F /* Build configuration list for PBXNativeTarget "Pods-ChatFireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE3B314FBA7A5976C06C8C487DEAE9A8 /* Debug */,
+				7263E31D527756C4C8A267870E72A368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34EBD292DFBE5719DF1E88B8FE3D3BE4 /* Build configuration list for PBXNativeTarget "Pods-ChatFireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83358F73AEC0DC7699FCB904D1B194EC /* Debug */,
+				6A0BF23BF364B17FAA7A7808C67B8492 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58D5EEC6581AD999962D58DF9E257CC5 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7726224447B2CB0F1418C9DC981B76E6 /* Debug */,
+				9F7024AF1DA9E8633EE2B6D6E9FE71B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BA2FC259999CD7A5937B0E53E3A19FE /* Build configuration list for PBXNativeTarget "ALCameraViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5311AF5C1375D3127103CEBAE164AB8A /* Debug */,
+				6F853CA4451DD26A1A3DB1C25AEACF95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804BD40BAC2F264858FBBAC344E49729 /* Build configuration list for PBXNativeTarget "SwiftMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC21F5E2DEDC923DD5026DDE23D8FDC /* Debug */,
+				F793C869A3CDF8F6FECA11BAE4202B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9036E91B982F3995C9ECAFAB9A60BACB /* Build configuration list for PBXNativeTarget "SwiftMessages-SwiftMessages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9558034612EE7A780FDD11D8BFA1C5D2 /* Debug */,
+				5D9A05901D661C5805827147F06EBEA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A55477D943CC3CCA7638DD1A3E721DF2 /* Build configuration list for PBXNativeTarget "Pods-ChatFire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32781634E789B9E240F8369B1DCA6A6F /* Debug */,
+				7177BAC305E9D9B7C412EB3ECD0551F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
