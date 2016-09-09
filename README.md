@@ -1,4 +1,4 @@
-# ChatFire
+# ![Icon](https://github.com/telip007/ChatFire/blob/master/Icon/Icon.png) ChatFire
 ## Still in progress
 This is not the final build, I will add features like sending images, videos and voice messasges, receiving notifications, etc.
 
