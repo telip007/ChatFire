@@ -1,4 +1,6 @@
 # ChatFire
+## Still in progress
+This is not the final build, I will add features like sending images, videos and voice messasges, receiving notifications, etc.
 
 ## About
 ChatFire is a very simple Chat application written in swift and xcode 7 to present how you can build very easy apps with firebase.
